@@ -4,3 +4,5 @@ django-heroku
 requests
 pyTelegramBotAPI
 python-binance
+numpy
+pandas
