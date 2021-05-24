@@ -1,0 +1,1 @@
+bot_access = "BTC_rasti_pls!"
