@@ -39,7 +39,7 @@ def get_text_messages(message):
 
 	if (message.text == passes.bot_access):
 		bot.send_message(message.from_user.id, "Привет!")
-	    trigger_info(message)
+		trigger_info(message)
 
 bot.polling(none_stop=True, interval=0)
 
