@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import pandas as pd
 from binance.client import Client
@@ -43,5 +44,3 @@ def return_positions():
 	#     print("quantity:", new_trade['qty'])
 	#     print("position size:", new_trade['quoteQty'])
 	#     print("time:",datetime.datetime.fromtimestamp(new_trade['time']/1000.0))
-	    
-

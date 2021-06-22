@@ -12,7 +12,9 @@ def trigger_info(message):
 	while True:	
 		try:
 			new_trades = trading_position.return_positions()
+			print("tut")
 			for new_trade in new_trades:
+				print("tut1", new_trade)
 				answer_str = f"coin: {new_trade['symbol']} \n {new_trade['isBuyer']} \n price: {new_trade['price']} \n position_size: {new_trade['quoteQty']} \n time: {datetime.datetime.fromtimestamp(new_trade['time']/1000.0)}"
 				bot.send_message(message.from_user.id, answer_str)
 
